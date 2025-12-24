@@ -5,8 +5,8 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 import google.generativeai as genai
 
 # --- 配置部分 ---
-TELEGRAM_TOKEN = "8231619189:AAHcwDu_X7aN3iNaA0XwikpwjAbyH_Zmgi0"
-GOOGLE_API_KEY = "AIzaSyAbSNEwXMNKQ4RBE_UeoQ23cCxEJ_SzVSY"
+TELEGRAM_TOKEN = "8231619189:??HcwDu_X7aN3iNaA0XwikpwjAbyH_Zmgi0"
+GOOGLE_API_KEY = "??zaSyAbSNEwXMNKQ4RBE_UeoQ23cCxEJ_SzVSY"
 
 # 如果 Gemini 3 Pro 已发布，请在此处更改模型名称，例如 "gemini-3.0-pro"
 # 目前常用的是 "gemini-1.5-pro-latest"
@@ -51,4 +51,5 @@ if __name__ == '__main__':
     application.add_handler(message_handler)
     
     print("机器人正在运行...")
+
     application.run_polling()
